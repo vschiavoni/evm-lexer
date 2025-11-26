@@ -1,3 +1,5 @@
+A simple lexer for [Pygmentize](https://pygments.org/docs/cmdline/)  to code-highlight EVM bytecode inside Minted latex code.
+
 Install it for the pygmentize version used. Find the required Python installation:
 
 ```
