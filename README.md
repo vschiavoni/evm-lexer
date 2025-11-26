@@ -20,6 +20,12 @@ pygmentize -L lexers | grep -e evm
     EVM (filenames *.evm, *.evmasm, *.easm)
 ```
 
+Test locally outside LaTeX (using the file test.evm):
+```
+pygmentize -O style=monokai -f terminal256 -l evmasm test.evm
+pygmentize -O style=vs -f terminal256 -l evmasm test.evm
+```
+
 Then, use in Latex/minted:
 ```
   \begin{minted}[
