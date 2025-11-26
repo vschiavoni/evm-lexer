@@ -46,3 +46,7 @@ DUP2
 JUMPDEST
 \end{minted}
 ```
+You can produce a standaline HTML page embedding the code-highlighted snippet as follows:
+```
+pygmentize -f html -O full -o monokai.html  -O style=monokai -l evmasm test.evm
+```
